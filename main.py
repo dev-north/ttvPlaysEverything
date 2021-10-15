@@ -1,7 +1,8 @@
 import time
 
 from termcolor import cprint
-
+import colorama
+colorama.init()
 from initialSetup import *
 from ttvBot import ttvPlays
 

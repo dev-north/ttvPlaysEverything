@@ -2,7 +2,8 @@
 import json
 import keyboard
 from termcolor import cprint
-
+import colorama
+colorama.init()
 from twitchio.ext import commands
 
 

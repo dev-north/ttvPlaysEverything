@@ -8,7 +8,8 @@ from termcolor import cprint
 
 from clear import clear
 
-
+import colorama
+colorama.init()
 class Setup():
 
     def __init__(self) -> None:
